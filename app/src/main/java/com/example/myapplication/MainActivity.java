@@ -20,12 +20,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToActivity2(View view){
-        EditText uName = findViewById(R.id.userName);
-        EditText passWord = findViewById(R.id.password);
-        Intent myIntent = new Intent(getApplicationContext(), Activity2.class);
-        myIntent.putExtra("name", uName.getText().toString());
-        myIntent.putExtra("passWord", passWord.getText().toString());
-        startActivity(myIntent);
-        Log.i("INFO", "switching to activity 2");
+
     }
 }
